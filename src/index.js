@@ -29,7 +29,7 @@ function handleGreeting(){
 
    let div = document.createElement('div'); //Создаем блок
    let img = document.createElement('img'); //Создаем изображение
-   img.src = '../img/hamster-poster.png';   //Вкладываем в img изображение
+   img.src = './img/hamster-poster.png';   //Вкладываем в img изображение
    div.classList.add('greating') ;    //Задаем  класс greating
 
    div.appendChild(img);
@@ -68,7 +68,7 @@ function handleTap(e){
    }
 
    const money = document.createElement('img');
-   money.src = '../img/hamster_coin.png';
+   money.src = './img/hamster_coin.png';
    console.log(money);
 
     money.classList.add('money');
